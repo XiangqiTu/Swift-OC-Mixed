@@ -1,0 +1,56 @@
+{
+  "name": "XiangqiTuModule",
+  "version": "0.0.2",
+  "summary": "XiangqiTuModule Demo for podspec.",
+  "description": "XiangqiTuModule desc.",
+  "homepage": "https://e.coding.net/MX-iOS/podsource/XiangqiTuDemo.git",
+  "license": "MIT",
+  "authors": {
+    "XiangqiTu": "110293734@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "git@e.coding.net:MX-iOS/podsource/XiangqiTuDemo.git",
+    "tag": "0.0.2"
+  },
+  "source_files": "Classes/**/*.{h,m,swift}",
+  "swift_versions": "5.0",
+  "module_name": "XiangqiTuModule",
+  "frameworks": [
+    "JavaScriptCore",
+    "Security",
+    "CoreLocation",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "CoreGraphics",
+    "UIKit",
+    "Foundation",
+    "WebKit",
+    "AdSupport"
+  ],
+  "libraries": [
+    "z",
+    "c++",
+    "icucore"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "ZegoSDK_Archive": [
+
+    ],
+    "ZegoSDK_Simulator": [
+
+    ]
+  },
+  "configuration_pod_whitelist": {
+    "ZegoSDK_Archive": [
+      "release"
+    ],
+    "ZegoSDK_Simulator": [
+      "debug"
+    ]
+  },
+  "swift_version": "5.0"
+}

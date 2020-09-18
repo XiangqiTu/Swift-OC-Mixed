@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+
+target 'XiangqiDemo' do
+  
+  pod 'MixedModule' , :path => '../MixedModule', :modular_headers => true
+  pod 'OCModule', :path => '../OCModule'
+  pod 'SwiftModule' , :path => '../SwiftModule'
+
+  pod 'Masonry', '1.1.0', :modular_headers => true
+  
+end

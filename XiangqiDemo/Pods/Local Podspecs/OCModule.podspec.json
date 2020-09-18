@@ -1,0 +1,33 @@
+{
+  "name": "OCModule",
+  "version": "0.0.2",
+  "summary": "OCModule Demo for podspec.",
+  "description": "OCModule desc.",
+  "homepage": "https://github.com/XiangqiTu",
+  "license": "MIT",
+  "authors": {
+    "XiangqiTu": "110293734@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "git@e.coding.net:MX-iOS/podsource/XiangqiTuDemo.git",
+    "tag": "0.0.2"
+  },
+  "source_files": "Classes/**/*.{h,m}",
+  "requires_arc": true,
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "dependencies": {
+    "SwiftModule": [
+
+    ]
+  }
+}

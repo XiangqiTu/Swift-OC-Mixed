@@ -1,0 +1,6 @@
+module Pods_XiangqiDemo {
+  umbrella header "Pods-XiangqiDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

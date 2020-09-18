@@ -1,0 +1,32 @@
+{
+  "name": "SwiftModule",
+  "version": "0.0.2",
+  "summary": "OCModule Demo for podspec.",
+  "description": "OCModule desc.",
+  "homepage": "https://github.com/XiangqiTu",
+  "license": "MIT",
+  "authors": {
+    "XiangqiTu": "110293734@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "git@e.coding.net:MX-iOS/podsource/XiangqiTuDemo.git",
+    "tag": "0.0.2"
+  },
+  "source_files": "Classes/**/*.{swift}",
+  "swift_versions": "5.0",
+  "module_name": "SwiftModule",
+  "requires_arc": true,
+  "dependencies": {
+    "MixedModule": [
+
+    ]
+  },
+  "script_phases": {
+    "name": "Copy Swift Public Header",
+    "script": "    # target directory is Project root directory\n    target_dir=${SRCROOT}/Headers/Public/SwiftModule/\n\n    # Ensure the target include path exists\n    mkdir -p ${target_dir}\n\n    # Copy any file that looks like a Swift generated header to the include path\n    cp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}\n    \n"
+  },
+  "swift_version": "5.0"
+}

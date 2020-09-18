@@ -1,0 +1,5 @@
+source 'https://gems.ruby-china.com' do
+  # Gems here
+  gem "fastlane"
+  
+end

@@ -1,0 +1,6 @@
+module MixedModule {
+  umbrella header "MixedModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

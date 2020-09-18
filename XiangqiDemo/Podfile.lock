@@ -1,0 +1,36 @@
+PODS:
+  - Masonry (1.1.0)
+  - MixedModule (0.0.2):
+    - Masonry (= 1.1.0)
+  - OCModule (0.0.2):
+    - SwiftModule
+  - SwiftModule (0.0.2):
+    - MixedModule
+
+DEPENDENCIES:
+  - Masonry (= 1.1.0)
+  - MixedModule (from `../MixedModule`)
+  - OCModule (from `../OCModule`)
+  - SwiftModule (from `../SwiftModule`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  MixedModule:
+    :path: "../MixedModule"
+  OCModule:
+    :path: "../OCModule"
+  SwiftModule:
+    :path: "../SwiftModule"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MixedModule: 2b1b63db5dd941aca766b29b05023e18339fa411
+  OCModule: e6203169136adb29492fab38a4536460b8faac79
+  SwiftModule: 24e0232fa0dd6b1d3de384f144309fd77f5e0cfb
+
+PODFILE CHECKSUM: 525acd56d955f5541b3c75acf7e14027a69f4ace
+
+COCOAPODS: 1.9.3

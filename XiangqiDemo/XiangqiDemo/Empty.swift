@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+//主工程直接引用 modular的Module
+import MixedModule
+import SwiftModule

@@ -55,4 +55,6 @@ Pod::Spec.new do |s|
 
   #Master 2
 
+  #feature 1
+  
 end

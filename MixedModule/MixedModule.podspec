@@ -47,5 +47,9 @@ Pod::Spec.new do |s|
     
     DESC
   }
-  
+
+
+
+  #Master 1
+
 end

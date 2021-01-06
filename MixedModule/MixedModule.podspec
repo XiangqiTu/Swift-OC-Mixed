@@ -59,5 +59,7 @@ Pod::Spec.new do |s|
 
   #feature 1
   #feature 2
+
+  #feature true edite 1
   
 end

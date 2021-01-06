@@ -51,6 +51,7 @@ Pod::Spec.new do |s|
 
 
   #Master 1
+  #Release 1
 
   #Master 2
 

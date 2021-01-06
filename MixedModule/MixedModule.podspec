@@ -46,6 +46,5 @@ Pod::Spec.new do |s|
     cp ${DERIVED_SOURCES_DIR}/*-Swift.h ${target_dir}
     
     DESC
-  }
-  
+  }  
 end

@@ -47,6 +47,5 @@ Pod::Spec.new do |s|
     
     DESC
   }
-
   
 end

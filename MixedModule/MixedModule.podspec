@@ -48,5 +48,7 @@ Pod::Spec.new do |s|
     DESC
   }
 
+
+#另外一个同事 提交了代码
   
 end
